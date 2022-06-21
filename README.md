@@ -1,10 +1,12 @@
-# Things Added to xcompmgr:
+## Features Added to xcompmgr in XCompEvolution:
 1. By using -P argument you can set as background for transparent 
    windows any image you would want. The image should be placed as
    usr/local/etc/XCompEvolution/bkg.bmp
 2. By using -R argument with a integer after (for exemple: "-R 12") 
    your windows will have rounded corners with the radius of the
    integer (in our case, it will be the radius of 12)
+
+## xcompmgr original description:
 
 xcompmgr is a sample compositing manager for X servers supporting the
 XFIXES, DAMAGE, RENDER, and COMPOSITE extensions.  It enables basic
