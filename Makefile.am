@@ -1,0 +1,19 @@
+SUBDIRS = man
+
+bin_PROGRAMS = xcompevolution
+
+AM_CFLAGS = $(CWARNFLAGS) $(XCOMPEVOLUTION_CFLAGS)
+xcompevolution_LDADD = $(XCOMPEVOLUTION_LIBS) -lm
+
+MAINTAINERCLEANFILES = ChangeLog INSTALL
+
+.PHONY: ChangeLog INSTALL
+
+INSTALL:
+	$(INSTALL_CMD)
+
+ChangeLog:
+	$(CHANGELOG_CMD)
+
+dist-hook: ChangeLog INSTALL
+
