@@ -1,4 +1,4 @@
-#Things Added to xcompmgr:#
+# Things Added to xcompmgr:
 1. By using -P argument you can set as background for transparent 
    windows any image you would want. The image should be placed as
    usr/local/etc/XCompEvolution/bkg.bmp
