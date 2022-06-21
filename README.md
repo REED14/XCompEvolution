@@ -1,3 +1,14 @@
+# How to install:
+In the folder where you cloned this repository, open a terminal and 
+use the following commands:
+```
+./autoconf.sh
+```
+
+```
+gmake install
+```
+
 ## Features Added to xcompmgr in XCompEvolution:
 1. By using -P argument you can set as background for transparent 
    windows any image you would want. The image should be placed as
